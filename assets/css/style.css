@@ -47,7 +47,7 @@ a {
     text-decoration: none;
 }
 
-
+/*Hero section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -90,7 +90,6 @@ p {
 .search-engine-optimization img {
     max-height: 200px;
 }
-
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -135,7 +134,7 @@ p {
 
 
 
-/* Benefits side bar*/
+/* Benefits side bar section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
