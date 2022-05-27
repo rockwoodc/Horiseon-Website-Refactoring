@@ -6,4 +6,4 @@ In this assignment I was asked to ensure that Horiseon's webpage followed access
 
 ![Getting Started](./assets/images/Horiseon%20mock%20up.png)
 
-INSERT LINK TO DEPLOYED APPLICATION
+<INSERT LINK TO DEPLOYED APPLICATION>
