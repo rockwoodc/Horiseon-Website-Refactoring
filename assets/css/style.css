@@ -46,6 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/*end of header and navigation section*/
 
 /*Hero section*/
 .hero {
@@ -56,8 +57,9 @@ a {
     background-size: cover;
     background-position: center;
 }
+/*end of hero section*/
 
-/* main content */
+/* main section content */
 p {
     font-size: 16px;
 }
@@ -78,9 +80,9 @@ p {
     margin-left: 20px;
 }
 
-.content h2{
+.content h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .content-text {
@@ -95,6 +97,7 @@ p {
 .content-text img {
     max-height: 200px;
 }
+/*end of main content section*/
 
 
 /* Benefits side bar section*/
@@ -124,6 +127,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/*end of benefits side bar*/
 
 /*Footer section*/
 .footer {
@@ -136,3 +140,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*end of footer section*/
