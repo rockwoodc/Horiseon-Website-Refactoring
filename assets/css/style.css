@@ -1,3 +1,4 @@
+/*applied to the whole webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,11 +17,13 @@ body {
     color: #ffffff;
 }
 
+/*styling for the whole header except the 'seo' in Horiseon*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*styling for the seo in Horiseon*/
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -33,6 +36,7 @@ body {
     font-size: 20px;
 }
 
+/*below is the styling for the nav bar links*/
 .header div ul {
     list-style-type: none;
 }
@@ -64,16 +68,19 @@ p {
     font-size: 16px;
 }
 
+/*allows main content to be on the left side of the screen*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*allows aside to be on the right side of the screen*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*begin main content- below is the styling for the main content text and images*/
 .content {
     width: 75%;
     display: inline-block;
@@ -100,7 +107,7 @@ p {
 /*end of main content section*/
 
 
-/* Benefits side bar section*/
+/* Benefits side bar section- appears on right side of screen*/
 .benefits {
     margin-right: 20px;
     padding: 20px;

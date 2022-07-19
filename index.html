@@ -10,10 +10,12 @@
 <body>
 
 <header>
+    <!--navigation bar-->
     <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
+                <!--each list item is a link to the related section of the site-->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -28,65 +30,73 @@
     </nav>
 </header>
 
+<!--hero has no functionality, just a large picture-->
+<div class="hero"></div>
 
-    <div class="hero"></div>
+<!--each div inside of this section contains a title,image, and picture to be displayed on the left side of the screen under the hero. The images and text will alternate floating left/right-->
+<section class="content">
+    <div id="search-engine-optimization" class="content-text">
+        <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a computer, notebook, writing utensils, and a coffee on a desk"/>
+        <h2>Search Engine Optimization</h2>
+        <p>
+        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+        </p>
+    </div>
 
-    <section class="content">
-        <div id="search-engine-optimization" class="content-text">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a computer, notebook, writing utensils, and a coffee on a desk"/>
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="content-text">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="a person on a computer and a phone"/>
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="content-text">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="people working at a shared desk with pictures of icons on it"/>
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-    </section>
-    
-    <aside class="benefits">
-        <div class="benefit">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="gear doing into a funnel and coming out as money"/>
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="a human bust with a radiating lightbulb as a head"/>
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="a gear and three money symbols"/>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </aside>
+    <div id="online-reputation-management" class="content-text">
+        <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="a person on a computer and a phone"/>
+        <h2>Online Reputation Management</h2>
+        <p>
+            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+        </p>
+    </div>
 
-    <footer>
-        <div class="footer">
-            <h2>Made with ❤️️ by Horiseon</h2>
-            <p>
-                &copy; 2019 Horiseon Social Solution Services, Inc.
-            </p>
-        </div>
-    </footer>
+    <div id="social-media-marketing" class="content-text">
+        <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="people working at a shared desk with pictures of icons on it"/>
+        <h2>Social Media Marketing</h2>
+        <p>
+            Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+        </p>
+    </div>
+</section>
+
+<!--this section will be a small column to the right of the previous section. Each div contains a icon, title, and text-->   
+<aside class="benefits">
+    <div class="benefit">
+        <h3>Lead Generation</h3>
+        <img src="./assets/images/lead-generation.png" alt="gear doing into a funnel and coming out as money"/>
+        <p>
+            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+        </p>
+    </div>
+
+    <div class="benefit">
+        <h3>Brand Awareness</h3>
+        <img src="./assets/images/brand-awareness.png" alt="a human bust with a radiating lightbulb as a head"/>
+        <p>
+            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+        </p>
+    </div>
+
+    <div class="benefit">
+        <h3>Cost Management</h3>
+        <img src="./assets/images/cost-management.png" alt="a gear and three money symbols"/>
+        <p>
+            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+        </p>
+    </div>
+</aside>
+
+<!--footer is simple and centered at the bottom of the screen-->
+<footer>
+    <div class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </div>
+</footer>
+
 </body>
 
 </html>
